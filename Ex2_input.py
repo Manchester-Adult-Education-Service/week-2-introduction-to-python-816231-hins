@@ -34,17 +34,21 @@ colour = input("What's your favourite colour? ")
 
 # Example (you can write similar code for food and song)
 print(f"{colour.capitalize()} is a lovely colour, {name}!")
+favouriteFood =input("what is your favourite food? ")
+print(f"{favouriteFood.capitalize()} is a yummy food, {name}!")
+favouriteSong=input( "what your favourite song? ")
+print(f"{favouriteSong} is my favourite song too.")
 
 # --------------------
 # Step 3: Arithmetic experiments
 # Try the examples below. Change numbers, try new operations, and see what happens.
 
 print("")  # spacing
-print(f"In 5 years you will be {age}.")
-print(f"You are approximately {age} months old.")
-print(f"If we count in dog years (x7), you'd be {age} years old.")
-print(f"Twice your age is {age}.")
-print(f"Half your age is {age}.")
+print(f"In 5 years you will be {age +5}.")
+print(f"You are approximately {age*12} months old.")
+print(f"If we count in dog years (x7), you'd be {age*7} years old.")
+print(f"Twice your age is {age*2}.")
+print(f"Half your age is {age/2}.")
 
 # A small example using the length of the name (string -> numeric)
 print(f"Your name has {len(name)} characters.")
