@@ -5,21 +5,46 @@
 # Your task: Use variables to make the code shorter and easier to change!
 
 # Step 1: Run this program as it is first:
-print("Hello, Alice!")
-print("Alice is 25 years old.")
-print("In 5 years, Alice will be 30 years old.")
-print("Alice really likes pizza.")
-print("Pizza is Alice's favourite food!")
+name="Hinsha"
+age=35
+food="Pizza"
+print(f"Hello, {name}!")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be {age +5} years old.")
+print(f"{name} really likes {food}.")
+print(f"{food} is {name}'s favourite food!")
 
 # This will just add an empty line for space
 # Please don't touch this
 print("")
 
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+bobName="Abby"
+bobAge=35
+bobFood="Pasta"
+
+print(f"Hello,{bobName}!")
+print(f"{bobName} is {bobAge} years old.")
+print(f"In 5 years, {bobName} will be {bobAge +5} years old.")
+print(f"{bobName} really likes {bobFood}.")
+print(f"{bobFood} is {bobName}'s favourite food!")
+print("")
+
+sampleName="Emily"
+sampleAge=40
+sampleFood="Noodles"
+print(f"Hello,{sampleName}!")
+print(f"{sampleName} is {sampleAge} years old.")
+print(f"In 5 years,{sampleName} will be {sampleAge +5} years old.")
+print(f"{sampleName} really likes {sampleFood}.")
+print(f"{sampleFood} is {sampleName}'s favourite food!")
+
+print("")
+name1=input("what is your name? ")
+age1=int(input("How old are you? "))
+food1=input("what's your favourite food? ")
+print(f"Hello {name1} , Next year you will be {age1 +1}.")
+print(f"{food1.capitalize()} is your favourite food.")
+
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
