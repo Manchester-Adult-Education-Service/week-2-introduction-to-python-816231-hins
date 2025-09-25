@@ -34,6 +34,10 @@ colour = input("What's your favourite colour? ")
 
 # Example (you can write similar code for food and song)
 print(f"{colour.capitalize()} is a lovely colour, {name}!")
+favouriteFood =input("what is your favourite food? ")
+print(f"{favouriteFood.capitalize()} is a yummy food, {name}!")
+favouriteSong=input( "what your favourite song? ")
+print(f"{favouriteSong} is my favourite song too.")
 
 # --------------------
 # Step 3: Arithmetic experiments
