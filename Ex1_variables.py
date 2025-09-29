@@ -21,12 +21,14 @@ print("")
 bobName="Abby"
 bobAge=35
 bobFood="Pasta"
+bobColour="Blue"
 
 print(f"Hello,{bobName}!")
 print(f"{bobName} is {bobAge} years old.")
 print(f"In 5 years, {bobName} will be {bobAge +5} years old.")
 print(f"{bobName} really likes {bobFood}.")
 print(f"{bobFood} is {bobName}'s favourite food!")
+print(f"{bobColour} is {bobName}'s favourite colour!")
 print("")
 
 sampleName="Emily"
